@@ -1,0 +1,94 @@
+<!doctype HTML>
+<html lang="en">
+    <head>
+        <title>Latihan Minggu Ke 4</title>
+        <link rel="stylesheet" type="text/css" href="Form Pendaftaran.css">
+    </head>
+<body>
+<h1>Lomba Kreasi Fotografi dan Videografi 2021</h1>
+<hr color="light blue">
+
+<!-- Data Diri Peserta -->
+
+<h2 class="p1">Formulir Pendaftaran Peserta Lomba</h2>
+<h3>Data Diri Peserta Lomba</h3>
+<form action="proses.php">
+<table>
+    <tr>
+        <td>Nama Lengkap</td>
+        <td>=</td>
+        <td><input type="text" name="Nama_Lengkap" size="40"></td>
+    </tr>
+    <tr>
+        <td>NIK/NIM</td>
+        <td>=</td>
+        <td><input type="text" name="NIK/NIM" size="40"></td>
+    </tr>
+    <tr>
+        <td>Tanggal Lahir</td>
+        <td>=</td>
+        <td><input type="date" id="birthday" name="birthday"></td>
+    </tr>
+    <tr>
+        <td>Umur</td>
+        <td>=</td>
+        <td><input type="number" id="quantity" name="quantity" min="1" max="100"></td>
+    </tr>
+    <tr>
+        <td>Jenis Kelamin</td>
+        <td>=</td>
+        <td>Laki - Laki <input type="radio" name="Jenis_Kelamin" value="L">Perempuan <input type="radio" name="Jenis_Kelamin" value="P"></td>
+    </tr>
+    <tr>
+        <td>Nomor HP/WA</td>
+        <td>=</td>
+        <td><input type="text" name="Nomor_HP" size="40"></td>
+    </tr>
+    <tr>
+        <td>Alamat Tinggal</td>
+        <td>=</td>
+        <td><input type="text" name="Alamat_Tinggal" size="40"></td>
+    </tr>
+</table>
+
+<!-- Karya Peserta -->
+
+<h3>Hasil Karya Peserta</h3>
+<table>
+    <tr>
+        <td>Judul Karya</td>
+        <td>=</td>
+        <td><input type="text" name="Judul_Karya" size="40"></td>
+    </tr>
+    <tr>
+        <td>Jenis Perlombaan</td>
+        <td>=</td>
+        <td>
+            <select id="cars" name="cars">
+            <option value="Short_Movie">Short Movie</option>
+            <option value="Cinematic_Video">Cinematic Video</option>
+            <option value="Video_Documenter">Video Documenter</option>
+            <option value="Fotografi">Fotografi</option>
+        </td>
+        <tr>
+            <td>Karya Peserta</td>
+            <td>=</td>
+            <td><input type="file" id="myfile" name="myfile"></td>
+        </tr>
+        <tr>
+            <td>Email Peserta</td>
+            <td>=</td>
+            <td><input type="email" id="email" name="email" size="40"></td>
+        </tr>
+        <tr>
+            <td>Kesan dan Pesan</td>
+            <td>=</td>
+            <td><textarea name="message" rows="10" cols="40"></textarea></td>
+        </tr>
+</table>
+<p>Pengumuman pemenang lomba akan diinfokan melalui <a href="https://www.instagram.com/p/CSlmfHWHvur/?utm_source=ig_web_copy_link" target="_blank">itsme_ananda.25</a></p>
+<input type="submit" value="Submit">
+<input type="reset">
+</form>
+</body>
+</html>

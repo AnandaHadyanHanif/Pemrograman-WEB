@@ -1,0 +1,26 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1
+{
+    color: brown;
+}
+
+.kotak1
+{
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    transition: width 1s;
+}
+
+.kotak2
+{
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    transition: width 1s, height 2s;
+}

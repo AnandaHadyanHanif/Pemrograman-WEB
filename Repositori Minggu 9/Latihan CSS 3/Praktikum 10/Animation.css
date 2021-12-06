@@ -1,0 +1,16 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+.kotak
+{
+    background-color: darkblue;
+    width: 200px;
+    height: 200px;
+    animation-duration: 2s;
+    animation-name: inherit;
+}
+

@@ -1,0 +1,106 @@
+body
+{
+    background-color: #1D0759;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1
+{
+    color: bisque;
+}
+
+.center
+{
+    margin: 10px auto;
+    width: 1150px;
+    
+
+}
+.kotak1
+{
+    border-radius: 10px;
+    background: #fcfcfc;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+}
+
+.kotak2
+{
+    background: #fcfcfc;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 40px 20px 60px 90px;  
+}
+
+.kotak3
+{
+    background: #fcfcfc;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px; 
+    border-radius: 20px 10px 80px 10px;
+}
+
+.kotak4
+{
+    background: #fcfcfc;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 0px 50px 0px 50px;
+}
+
+.kotak5
+{
+    background: #fcfcfc;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.kotak6
+{
+    background: #fcfcfc;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.kotak7
+{
+    background: #fcfcfc;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 40px 10px;
+}
+
+.kotak8
+{
+    background: #fcfcfc;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 10px 10px 50% 50%;
+}

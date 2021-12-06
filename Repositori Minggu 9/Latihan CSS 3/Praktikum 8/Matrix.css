@@ -1,0 +1,35 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1
+{
+    color: chocolate;
+}
+
+h2{
+    color: coral;
+}
+
+.kotak1
+{
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+}
+
+.kotak1
+{
+    background-color: #228BC5
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    float: left;
+    margin: 50px;
+    transform: matrix(1,2,-1,1,5,4);
+}

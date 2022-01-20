@@ -1,0 +1,46 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@100;400;500;700&display=swap');
+
+/* Styles */
+body
+{
+    background-image: url(Final\ Desain.png);
+    background-repeat: no-repeat;
+    background-position: top-right;
+}
+
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #004AAD;
+    margin: 50px;
+    font-size: 200%;
+}
+
+a
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 7px;
+    text-decoration: none;
+}
+
+.startup
+{
+    margin-left: 13%;
+    font-size: 700%;
+}
+
+p
+{
+    margin-left: 13.4%;
+    padding-top: 0.1%;
+    font-size: 130%;
+}
+
+.login
+{
+    margin-left: 13%;
+    color: white;
+    font-size: medium;
+}
+

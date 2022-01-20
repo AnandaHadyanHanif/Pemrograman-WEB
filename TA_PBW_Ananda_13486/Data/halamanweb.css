@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+
+body
+{
+    min-height: 2000px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pembuka
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #C2DAF9;
+}
+
+.loker
+{
+    font-size: 3cm;
+    color: #004aad;
+}
+
+.arti
+{
+    font-size: xx-large;
+}
+
+.pembukaweb
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+}
+
+
+
+.col
+{
+    font-family: 'Montserrat', sans-serif; 
+    margin: 1rem;
+}
+
+.card
+{
+    margin: 1rem;
+}
+
+.contact
+{
+    margin: 1rem;
+}
